@@ -1,0 +1,35 @@
+<div class="section">
+    <h5>Exemplo utilizando a diretiva ngIf</h5>
+
+    <div *ngIf="curso.length > 0" class="content">
+        <p>Lista de cursos: {{ curso }}</p>
+    </div>
+
+    <div *ngIf="curso.length == 0" class="content">
+        <p>Lista de cursos vazia</p>
+    </div>
+
+    <div *ngIf="mostrarCursos" class="content">
+        <p>Lista de cursos: {{ curso }}</p>
+    </div>
+
+    <div *ngIf="!mostrarCursos" class="content">
+        <p>Não existem cursos para serem listados!</p>
+    </div>
+
+    <button (click)="setCurso()">Change status</button>
+</div>
+
+<div class="section">
+    <h5>Alternativa utilizando [hidden]</h5>
+
+    <div [hidden]="mostrarCursos" class="content">
+        <p>Lista de cursos: {{ curso }}</p>
+    </div>
+
+    <div [hidden]="!mostrarCursos" class="content">
+        <p>Não existem cursos para serem listados!</p>
+    </div>
+
+    <button (click)="setCurso()">Change status</button>
+</div>
