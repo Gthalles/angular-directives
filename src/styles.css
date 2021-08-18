@@ -16,15 +16,25 @@ body {
 section {
     width: 60%;
     padding: 15px;
-    margin-top: 100px;
-    margin-bottom: 100px;
     margin-left: 20%;
     margin-right: 20%;
 }
 
+.section {
+  background-color: var(--blue);
+  margin: 50px 0 50px 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
 .container {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 25px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 25px;
+}
+
+.content {
+  color: #fff;
+  margin: 20px;
 }
