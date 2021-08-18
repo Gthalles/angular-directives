@@ -1,5 +1,25 @@
+.navbar {
+  position: absolute;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-bottom: solid 3px var(--blue);
+}
+
 .nav-item {
+  cursor: pointer;
   margin-left: 22px;
+  color: var(--blue)!important;
+}
+
+.nav-item.active {
+  text-decoration: underline;
+}
+
+.primary-section {
+  margin-top: 66px;
+  padding: 5px;
 }
 
 p {

@@ -1,15 +1,14 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
   <div class="navbar-nav">
     <a class="nav-item nav-link" [class.active]="aba == 'home'" (click)="aba = 'home'">Home</a>
     <a class="nav-item nav-link" [class.active]="aba == 'features'" (click)="aba = 'features'">Features</a>
     <a class="nav-item nav-link" [class.active]="aba == 'pricing'" (click)="aba = 'pricing'">Pricing</a>
     <a class="nav-item nav-link" [class.active]="aba == 'address'" (click)="aba = 'address'">Address</a>
     <a class="nav-item nav-link" [class.active]="aba == 'contact'" (click)="aba = 'contact'">Contact</a>
-    <a class="nav-item nav-link disabled">Disabled</a>
   </div>
 </nav>
 
-<div class="section">
+<div class="section primary-section">
   <div class="under-section" [ngSwitch]="aba">
     <div class="content" *ngSwitchCase="'home'">
       <p>Home link is active</p>

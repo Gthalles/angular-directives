@@ -1,20 +1,14 @@
-h5 {
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-    color: #fff;
-    margin-bottom: 15px;
-}
-
 button {
     width: 70%;
+    font-weight: 350;
+    font-size: 18px;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 15%;
     margin-right: 15%;
-    border: solid #fff 1px;
+    border: solid #27415C 1.5px;
     background-color: var(--blue);
-    color: #fff;
+    color: #27415C;
     padding: 10px 5px;
     border-radius: 5px;
     cursor: pointer;
