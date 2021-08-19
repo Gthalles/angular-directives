@@ -1,16 +1,1 @@
-button {
-    width: 70%;
-    font-weight: 350;
-    font-size: 18px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 15%;
-    margin-right: 15%;
-    border: solid #27415C 1.5px;
-    background-color: var(--blue);
-    color: #27415C;
-    padding: 10px 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-transform: uppercase;
-}
+
