@@ -6,6 +6,8 @@ import { NgIfDirectiveComponent } from './ng-if-directive/ng-if-directive.compon
 import { NgSwitchDirectiveComponent } from './ng-switch-directive/ng-switch-directive.component';
 import { NgClassDirectiveComponent } from './ng-class-directive/ng-class-directive.component';
 import { NgStyleComponentComponent } from './ng-style-component/ng-style-component.component';
+import { ElvisComponent } from './elvis/elvis.component';
+import { NgContentComponent } from './ng-content/ng-content.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { NgStyleComponentComponent } from './ng-style-component/ng-style-compone
     NgIfDirectiveComponent,
     NgSwitchDirectiveComponent,
     NgClassDirectiveComponent,
-    NgStyleComponentComponent
+    NgStyleComponentComponent,
+    ElvisComponent,
+    NgContentComponent
   ],
   imports: [
     BrowserModule
