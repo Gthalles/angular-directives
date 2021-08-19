@@ -1,0 +1,18 @@
+<div class="section">
+  <h5>
+    <i class="glyphicon" [class.glyphicon-star-empty]="!favorite" [class.glyphicon-star]="favorite" (click)="onClick()">
+    </i>
+
+    <span class="glyphicon" [class.glyphicon-star-empty]="!favorite" [class.glyphicon-star]="favorite"
+      aria-hidden="true" (click)="onClick()"></span>
+
+    <i class="glyphicon" [ngClass]="{'glyphicon-star-empty': !favorite,
+      'glyphicon-star': favorite}" (click)="onClick()"></i>
+
+    <span class="glyphicon" [ngClass]="{'glyphicon-star-empty': !favorite, 'glyphicon-star': favorite}"
+      (click)="onClick()"></span>
+
+    <i class="glyphicon" [ngClass]="{'glyphicon-star-empty': !favorite, 'glyphicon-star': favorite}"
+      (click)="onClick()"></i>
+  </h5>
+</div>
