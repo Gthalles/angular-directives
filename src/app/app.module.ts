@@ -11,6 +11,8 @@ import { ElvisComponent } from './elvis/elvis.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
 import { BlueSectionDirective } from './shared/blue-section.directive';
 import { CustomDirectivesComponent } from './custom-directives/custom-directives.component';
+import { HighlightMouseDirective } from './shared/highlight-mouse.directive';
+import { HighlightMouse2Directive } from './shared/highlight-mouse2.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { CustomDirectivesComponent } from './custom-directives/custom-directives
     ElvisComponent,
     NgContentComponent,
     BlueSectionDirective,
-    CustomDirectivesComponent
+    CustomDirectivesComponent,
+    HighlightMouseDirective,
+    HighlightMouse2Directive
   ],
   imports: [
     BrowserModule
