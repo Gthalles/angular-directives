@@ -9,6 +9,8 @@ import { NgClassDirectiveComponent } from './ng-class-directive/ng-class-directi
 import { NgStyleComponentComponent } from './ng-style-component/ng-style-component.component';
 import { ElvisComponent } from './elvis/elvis.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
+import { BlueSectionDirective } from './shared/blue-section.directive';
+import { CustomDirectivesComponent } from './custom-directives/custom-directives.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { NgContentComponent } from './ng-content/ng-content.component';
     NgClassDirectiveComponent,
     NgStyleComponentComponent,
     ElvisComponent,
-    NgContentComponent
+    NgContentComponent,
+    BlueSectionDirective,
+    CustomDirectivesComponent
   ],
   imports: [
     BrowserModule
