@@ -1,8 +1,8 @@
 <div class="section">
   <h5>Styles com property binding (style binding)</h5>
 
-  <button [style.backgroundColor]="ativo ? '#27415C' : 'var(--blue)'" [style.color]="ativo ? 'var(--blue)' : '#27415C'"
-    [style.border]="ativo ? 'solid 1.5px #fff' : 'solid 1.5px #27415C'" (click)="onChange()">Change status</button>
+  <button [style.backgroundColor]="ativo ? '#343a40' : 'var(--blue)'" [style.color]="ativo ? 'var(--blue)' : '#343a40'"
+    [style.border]="ativo ? 'solid 1.5px #343a40' : 'solid 1.5px '" [style.marginTop]="'40px'" (click)="onChange()">Change status</button>
 
 </div>
 
@@ -10,9 +10,10 @@
   <h5>Styles utilizando a diretiva [ngStyle]</h5>
 
   <button [ngStyle]="{
-      'backgroundColor': (ativo ? '#27415C' : 'var(--blue'),
-      'color': ativo ? 'var(--blue)' : '#27415C',
-      'border': ativo ? 'solid 1.5px #fff' : 'solid 1.5px #27415C'
+      'backgroundColor': (ativo ? '#343a40' : 'var(--blue'),
+      'color': ativo ? 'var(--blue)' : '#343a40',
+      'border': ativo ? 'solid 1.5px var(--blue)' : 'solid 1.5px #343a40',
+      'margin-top': '40px'
     }" (click)="onChange()">Change status</button>
 
 </div>

@@ -1,9 +1,12 @@
 <div class="section">
     <div class="content">
         <p blueSection>Texto utilizando a diretiva customizada para alterar a cor de fundo.(ElementRef e Renderer2)</p>
-
         <p appHighlightMouse>Texto com highlight on mouse enter. (HostListener, ElementRef e Renderer2)</p>
-
-        <p appHighlightMouse2>Texto com highlight on mouse enter. (Código simplificado utilizando HostListener, HostBinding, ElementRef e Renderer)</p>
+        <p appHighlightMouse2>Texto com highlight on mouse enter. (Código simplificado utilizando HostListener,
+            HostBinding, ElementRef e Renderer)</p>
+        <p finalHighlight [finalHighlightColor]="'#343a40'" [defaultColor]="'var(--blue)'">Texto com highlight on click.
+            (Código reduzido utilizando..)</p>
+        <p finalHighlight [finalHighlightColor]="'#343a40'" [defaultColor]="'var(--blue)'">Texto com highlight on mouse
+            enter. (Código simplificado utilizando HostListener, HostBinding, ElementRef e Renderer)</p>
     </div>
 </div>

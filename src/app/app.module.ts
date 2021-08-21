@@ -13,6 +13,7 @@ import { BlueSectionDirective } from './shared/blue-section.directive';
 import { CustomDirectivesComponent } from './custom-directives/custom-directives.component';
 import { HighlightMouseDirective } from './shared/highlight-mouse.directive';
 import { HighlightMouse2Directive } from './shared/highlight-mouse2.directive';
+import { FinalHighlightDirective } from './shared/final-highlight.directive';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HighlightMouse2Directive } from './shared/highlight-mouse2.directive';
     BlueSectionDirective,
     CustomDirectivesComponent,
     HighlightMouseDirective,
-    HighlightMouse2Directive
+    HighlightMouse2Directive,
+    FinalHighlightDirective
   ],
   imports: [
     BrowserModule

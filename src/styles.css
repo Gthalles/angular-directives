@@ -58,11 +58,16 @@ button {
   margin-bottom: 5px;
   margin-left: 15%;
   margin-right: 15%;
-  border: solid #27415C 1.5px;
+  border: solid #343a40 1.5px;
   background-color: var(--blue);
-  color: #27415C;
+  color: #343a40;
   padding: 10px 5px;
   border-radius: 5px;
   cursor: pointer;
   text-transform: uppercase;
+  transition: 0.3s;
+}
+
+button:focus {
+  outline: none;
 }
