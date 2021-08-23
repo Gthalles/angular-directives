@@ -10,3 +10,21 @@
             enter. (Código simplificado utilizando HostListener, HostBinding, ElementRef e Renderer)</p>
     </div>
 </div>
+
+<div class="section">
+  <h5>Criando uma diretiva de estrutura customizada: [ngElse]</h5>
+  <div class="content">
+    <div *ngIf="mostrarCursos" class="content">
+      <p>Lista de cursos: {{ curso }}</p>
+  </div>
+
+  <div *appNgElse="mostrarCursos" class="content">
+      <p>Não existem cursos para serem listados!</p>
+  </div>
+
+  <button [ngStyle]="{
+    'backgroundColor': ativo ? '#343a40' : 'var(--blue)',
+    'color': ativo ? 'var(--blue)' : '#343a40'
+  }" (click)="setCurso()">Change status</button>
+  </div>
+</div>
