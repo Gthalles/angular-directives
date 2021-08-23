@@ -14,7 +14,6 @@ import { CustomDirectivesComponent } from './custom-directives/custom-directives
 import { HighlightMouseDirective } from './shared/highlight-mouse.directive';
 import { HighlightMouse2Directive } from './shared/highlight-mouse2.directive';
 import { FinalHighlightDirective } from './shared/final-highlight.directive';
-import { NgElseDirective } from './shared/ng-else.directive';
 
 @NgModule({
   declarations: [
@@ -30,8 +29,7 @@ import { NgElseDirective } from './shared/ng-else.directive';
     CustomDirectivesComponent,
     HighlightMouseDirective,
     HighlightMouse2Directive,
-    FinalHighlightDirective,
-    NgElseDirective
+    FinalHighlightDirective
   ],
   imports: [
     BrowserModule

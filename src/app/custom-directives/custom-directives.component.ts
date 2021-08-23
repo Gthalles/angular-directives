@@ -6,16 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./custom-directives.component.css']
 })
 export class CustomDirectivesComponent implements OnInit {
-  // Atributos
-  curso: string[] = ["Angular", " Docker", " SpringBoot"];
-  mostrarCursos: boolean = false;
-  ativo: boolean = false;
-
-  // Métodos
-  setCurso() {
-    this.mostrarCursos = !this.mostrarCursos;
-    this.ativo = !this.ativo;
-  }
 
   constructor() { }
 
